@@ -23,13 +23,13 @@ public class Guess {
             }
                    else if (number > guess && i != k - 1){
                         System.out.println(
-                                "The number is "+ "greater than " + guess+"guess the lesser one");
+                                "The number is "+ "greater than " + guess+"guess the greater one");
                  
                     }
             
                     else if (number < guess && i != k - 1){
                         System.out.println(
-                                "The number is"+ " less than " + guess+"guess the larger one");
+                                "The number is"+ " less than " + guess+"guess the lesser one");
                     
                     }
                 }
